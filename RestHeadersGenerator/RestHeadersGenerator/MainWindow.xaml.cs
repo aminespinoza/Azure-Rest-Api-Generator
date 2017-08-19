@@ -1,18 +1,7 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
 
 namespace RestHeadersGenerator
 {
@@ -30,7 +19,8 @@ namespace RestHeadersGenerator
             //generar Header de Autorización
             string storageAccount = txtStorageAccount.Text;
             string storageKey = txtStorageKey.Text;
-            txtAuthorization.Text = GenerateAuthorizationHeader(actualDate, storageAccount, storageKey);
+            string selectedOperation = cmbOperations.SelectedItem.ToString();
+            txtAuthorization.Text = GenerateAuthorizationHeader(actualDate, storageAccount, storageKey, selectedOperation);
 
             //generar Header de fecha
             txtDate.Text = actualDate;
@@ -39,7 +29,7 @@ namespace RestHeadersGenerator
             txtVersion.Text = "2014-02-14";
         }
 
-        string GenerateAuthorizationHeader(string mxdate, string storageName, string sharedAccessKey)
+        string GenerateAuthorizationHeader(string mxdate, string storageName, string sharedAccessKey, string operation)
         {
             mxdate = DateTime.UtcNow.ToString("R");
 
@@ -52,7 +42,7 @@ namespace RestHeadersGenerator
 
             string stringToSign = string.Format(
             "{0}\n\n\n\n\n\n\n\n\n\n\n\n{1}\n{2}",
-            "GET",
+            operation,
             canonicalizedHeaders,
             canonicalizedResource);
 

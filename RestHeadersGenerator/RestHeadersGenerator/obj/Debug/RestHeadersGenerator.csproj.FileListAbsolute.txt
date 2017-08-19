@@ -12,3 +12,17 @@ c:\users\amin espinoza\documents\visual studio 2017\Projects\RestHeadersGenerato
 c:\users\amin espinoza\documents\visual studio 2017\Projects\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\RestHeadersGenerator.csproj.GenerateResource.Cache
 c:\users\amin espinoza\documents\visual studio 2017\Projects\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\RestHeadersGenerator.exe
 c:\users\amin espinoza\documents\visual studio 2017\Projects\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\RestHeadersGenerator.pdb
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\bin\Debug\RestHeadersGenerator.exe.config
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\bin\Debug\RestHeadersGenerator.exe
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\bin\Debug\RestHeadersGenerator.pdb
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\RestHeadersGenerator.csprojResolveAssemblyReference.cache
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\MainWindow.g.cs
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\App.g.cs
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\RestHeadersGenerator_MarkupCompile.cache
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\RestHeadersGenerator_MarkupCompile.lref
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\MainWindow.baml
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\RestHeadersGenerator.g.resources
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\RestHeadersGenerator.Properties.Resources.resources
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\RestHeadersGenerator.csproj.GenerateResource.Cache
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\RestHeadersGenerator.exe
+C:\Users\Amin Espinoza\Documents\GitHub\Azure-Rest-Api-Generator\RestHeadersGenerator\RestHeadersGenerator\obj\Debug\RestHeadersGenerator.pdb
