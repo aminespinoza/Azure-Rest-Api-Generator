@@ -19,7 +19,7 @@ namespace RestHeadersGenerator
             //generar Header de Autorización
             string storageAccount = txtStorageAccount.Text;
             string storageKey = txtStorageKey.Text;
-            string selectedOperation = cmbOperations.SelectedItem.ToString();
+            string selectedOperation = cmbOperations.Text;
             txtAuthorization.Text = GenerateAuthorizationHeader(actualDate, storageAccount, storageKey, selectedOperation);
 
             //generar Header de fecha

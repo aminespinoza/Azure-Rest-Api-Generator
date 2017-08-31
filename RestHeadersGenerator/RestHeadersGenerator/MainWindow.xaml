@@ -16,6 +16,7 @@
         <TextBlock HorizontalAlignment="Right" Margin="0,32,10,0" TextWrapping="Wrap" Text="blob.core.windows.net" VerticalAlignment="Top" Height="20" TextAlignment="Right"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,58.98,0,0" TextWrapping="Wrap" Text="Storage key:" VerticalAlignment="Top" Height="20"/>
         <TextBox x:Name="txtStorageKey" HorizontalAlignment="Left" Height="23" Margin="167,56.98,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="443"/>
+        <TextBlock HorizontalAlignment="Left" Margin="10,101.172,0,0" TextWrapping="Wrap" Text="Operation:" VerticalAlignment="Top" Height="20"/>
         <ComboBox x:Name="cmbOperations" HorizontalAlignment="Left" Height="23.147" Margin="167,98.984,0,0" VerticalAlignment="Top" Width="443">
             <ComboBox.Items>
                 <ComboBoxItem>GET</ComboBoxItem>
@@ -23,7 +24,6 @@
                 <ComboBoxItem>PUT</ComboBoxItem>
             </ComboBox.Items>
         </ComboBox>
-        <TextBlock HorizontalAlignment="Left" Margin="10,101.172,0,0" TextWrapping="Wrap" Text="Storage key:" VerticalAlignment="Top" Height="20"/>
         <Button x:Name="btnGenerateHeaders" Content="Generar encabezados" HorizontalAlignment="Left" Height="38" Margin="10,136.435,0,0" VerticalAlignment="Top" Width="600" Click="btnGenerateHeaders_Click"/>
         <TextBlock HorizontalAlignment="Left" Margin="10,10.988,0,0" TextWrapping="Wrap" Text="Authorization:" VerticalAlignment="Top" Height="20" Grid.Row="1"/>
         <TextBox x:Name="txtAuthorization" Height="67.746" Margin="110,10,10,0" TextWrapping="Wrap" VerticalAlignment="Top" Grid.Row="1"/>
